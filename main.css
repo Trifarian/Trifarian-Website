@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Zen+Dots&display=swap');
+.background {
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.topnavbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.topnavbar a {
+    font-family: Zen Dots;
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+    font-size: 35px;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+}
+
+.topnavbar a:hover {
+    color: rgb(0, 255, 0)
+}
+
+.Header {
+    font-family: Zen Dots;
+    font-size: 100px;
+    color: rgb(204, 0, 255);
+    text-align: center;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+}
+
+.Clip {
+    display: block;
+    margin: 0 auto;
+}
+
+.question {
+    font-family: Zen Dots;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+}
+
+.poll {
+    display: block;
+    margin: 0 auto;
+}
+
+.abouttext {
+    font-family: Titillium Web;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding: 50px;
+    text-shadow: 3px 2px rgb(0, 0, 0)
+}
+
+.reddit {
+    font-family: Titillium Web;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    text-align: left;
+    padding: 50px;
+    text-shadow: 3px 2px rgb(0, 0, 0)
+}
+
+.reddit a:hover {
+    color: rgb(0, 255, 0);
+}
+
+.reddit a {
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
